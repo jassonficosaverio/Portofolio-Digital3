@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasson Fico Saverio — Siswa TKJ</title>
+<meta name="description" content="Portofolio digital Jasson Fico Saverio, siswa Teknik Komputer dan Jaringan (TKJ).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== LAYAR SAMBUTAN ===== -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-grid"></div>
+  <div class="intro-content">
+    <span class="intro-mark">JF</span>
+    <p class="intro-text">Menyiapkan portofolio<span class="intro-dots"><span>.</span><span>.</span><span>.</span></span></p>
+  </div>
+</div>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+
+<header class="navbar" id="navbar">
+  <a href="#beranda" class="brand">jasson<span class="brand-dot">.</span>dev</a>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#beranda" data-nav="beranda">Beranda</a>
+    <a href="#tentang" data-nav="tentang">Tentang</a>
+    <a href="#portofolio" data-nav="portofolio">Portofolio</a>
+    <a href="#galeri" data-nav="galeri">Galeri</a>
+    <a href="#kontak" data-nav="kontak">Kontak</a>
+    <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+  </nav>
+
+  <a href="#kontak" class="btn btn-primary btn-small">Hubungi Saya</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ===== BERANDA / HERO ===== -->
+  <section class="hero" id="beranda">
+    <div class="hero-text">
+      <p class="hero-kicker">● tersedia untuk PKL &amp; magang</p>
+      <h1>Teknik Komputer<br><span class="muted">&amp; Jaringan.</span></h1>
+
+      <p class="hero-role">
+        <span class="hero-role-label">Siswa TKJ —</span>
+        <span class="role-cycle" id="roleCycle">Kelas XI</span>
+      </p>
+
+      <p class="hero-desc">
+        Siswa SMK yang menekuni jurusan IT, dengan fokus di dunia komputer dan jaringan. Sedang mengasah kemampuan memanfaatkan AI sebagai alat bantu belajar dan bekerja — dari riset, rangkuman materi, sampai menyusun dokumentasi.
+      </p>
+
+      <div class="hero-tags">
+        <span class="tag">Jaringan Dasar</span>
+        <span class="tag">AI Prompting</span>
+        <span class="tag">TKJ</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#portofolio" class="btn btn-primary">Lihat Portofolio</a>
+        <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+      </div>
+
+      <p class="hero-note">↓ jelajahi karya di bawah &nbsp;·&nbsp; terbuka untuk kesempatan PKL</p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="id-card-wrap" id="idCardWrap">
+        <div class="id-card-string"></div>
+        <div class="id-card-tag">KARTU · TKJ</div>
+        <div class="id-card" id="idCard">
+          <div class="id-card-photo">
+            <svg viewBox="0 0 200 200" class="avatar-illustration" role="img" aria-label="Ilustrasi avatar Jasson">
+              <circle cx="100" cy="100" r="100" fill="#1c1c22"/>
+              <path d="M38 208 C 38 152, 64 122, 100 122 C 136 122, 162 152, 162 208 Z" fill="#0e0e11"/>
+              <path d="M78 128 L 100 150 L 122 128" fill="none" stroke="#3a3a42" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="100" cy="94" r="47" fill="#c9c9cf"/>
+              <g>
+                <ellipse cx="80" cy="96" rx="10" ry="13" fill="#101013"/>
+                <circle cx="83" cy="90" r="3.4" fill="#f4f4f2"/>
+                <ellipse cx="120" cy="96" rx="10" ry="13" fill="#101013"/>
+                <circle cx="123" cy="90" r="3.4" fill="#f4f4f2"/>
+              </g>
+              <path d="M68 84 Q 80 76, 92 84" fill="none" stroke="#101013" stroke-width="3" stroke-linecap="round"/>
+              <path d="M108 84 Q 120 76, 132 84" fill="none" stroke="#101013" stroke-width="3" stroke-linecap="round"/>
+              <path d="M92 118 Q 100 124, 108 118" fill="none" stroke="#3a3a42" stroke-width="3" stroke-linecap="round"/>
+              <path d="M46 92 C 38 46, 66 18, 100 18 C 136 18, 164 44, 156 90
+                       C 150 70, 146 86, 138 66 C 130 84, 120 60, 112 78
+                       C 104 58, 96 80, 88 62 C 80 82, 70 64, 62 82
+                       C 58 68, 50 78, 46 92 Z" fill="#0e0e11"/>
+              <path d="M96 20 C 90 34, 92 44, 100 50" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
+              <path d="M118 24 C 114 36, 118 44, 126 48" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
+              <path d="M40 90 C 30 90, 24 102, 30 114" fill="none" stroke="#0e0e11" stroke-width="8" stroke-linecap="round"/>
+              <path d="M160 90 C 170 90, 176 102, 170 114" fill="none" stroke="#0e0e11" stroke-width="8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="id-card-info">
+            <span class="id-card-name">Jasson Fico S.</span>
+            <span class="id-card-role">Siswa TKJ · Kelas XI</span>
+          </div>
+          <p class="id-card-hint">seret kartunya →</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section class="section" id="tentang">
+    <p class="section-eyebrow">Informasi</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Jasson Fico<br>Saverio</h2>
+        <p>
+          Aku siswa SMK kelas XI yang menekuni jurusan IT — fokusnya di dunia komputer dan jaringan. Bagiku, TKJ itu bukan cuma soal kabel dan konfigurasi, tapi cara berpikir sistematis dalam menyusun sesuatu yang saling terhubung.
+        </p>
+        <p>
+          Aku punya keinginan besar untuk terus menggali lebih dalam soal dunia IT dan teknologi. Salah satu cara aku belajar sekarang adalah lewat AI — aku terbiasa menyusun prompt untuk riset, merangkum materi, dan membantu menyelesaikan tugas dengan lebih efisien.
+        </p>
+
+        <p class="about-quote">"Learning, Building, Improving."</p>
+
+        <div class="about-actions">
+          <a href="#portofolio" class="btn btn-primary">Lihat Portofolio</a>
+          <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="about-side">
+        <div class="about-photo">
+          <svg viewBox="0 0 200 200" class="avatar-illustration" role="img" aria-label="Ilustrasi avatar Jasson">
+            <circle cx="100" cy="100" r="100" fill="#1c1c22"/>
+            <path d="M38 208 C 38 152, 64 122, 100 122 C 136 122, 162 152, 162 208 Z" fill="#0e0e11"/>
+            <path d="M78 128 L 100 150 L 122 128" fill="none" stroke="#3a3a42" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="100" cy="94" r="47" fill="#c9c9cf"/>
+            <g>
+              <ellipse cx="80" cy="96" rx="10" ry="13" fill="#101013"/>
+              <circle cx="83" cy="90" r="3.4" fill="#f4f4f2"/>
+              <ellipse cx="120" cy="96" rx="10" ry="13" fill="#101013"/>
+              <circle cx="123" cy="90" r="3.4" fill="#f4f4f2"/>
+            </g>
+            <path d="M68 84 Q 80 76, 92 84" fill="none" stroke="#101013" stroke-width="3" stroke-linecap="round"/>
+            <path d="M108 84 Q 120 76, 132 84" fill="none" stroke="#101013" stroke-width="3" stroke-linecap="round"/>
+            <path d="M92 118 Q 100 124, 108 118" fill="none" stroke="#3a3a42" stroke-width="3" stroke-linecap="round"/>
+            <path d="M46 92 C 38 46, 66 18, 100 18 C 136 18, 164 44, 156 90
+                     C 150 70, 146 86, 138 66 C 130 84, 120 60, 112 78
+                     C 104 58, 96 80, 88 62 C 80 82, 70 64, 62 82
+                     C 58 68, 50 78, 46 92 Z" fill="#0e0e11"/>
+            <path d="M96 20 C 90 34, 92 44, 100 50" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
+            <path d="M118 24 C 114 36, 118 44, 126 48" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
+            <path d="M40 90 C 30 90, 24 102, 30 114" fill="none" stroke="#0e0e11" stroke-width="8" stroke-linecap="round"/>
+            <path d="M160 90 C 170 90, 176 102, 170 114" fill="none" stroke="#0e0e11" stroke-width="8" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Proyek</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Bidang Keahlian</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="galleryStat" data-count="0">0</span>
+            <span class="stat-label">Karya di Galeri</span>
+          </div>
+        </div>
+
+        <div class="quick-facts">
+          <div class="fact"><span class="fact-label">Jurusan</span><span class="fact-value">Teknik Komputer &amp; Jaringan</span></div>
+          <div class="fact"><span class="fact-label">Status</span><span class="fact-value">Kelas XI</span></div>
+          <div class="fact"><span class="fact-label">Andalan</span><span class="fact-value">Prompt Engineering &amp; AI</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTOFOLIO (tab: proyek / keahlian / tech stack) ===== -->
+  <section class="section section-alt" id="portofolio">
+    <div class="section-head">
+      <p class="section-eyebrow">Portofolio</p>
+      <h2>Proyek, Keahlian &amp; Tools</h2>
+      <p class="section-sub">Jelajahi proyek, kemampuan, dan tools yang aku pakai lewat tab di bawah ini.</p>
+    </div>
+
+    <div class="tab-switch" id="tabSwitch">
+      <span class="tab-indicator" id="tabIndicator"></span>
+      <button class="tab-btn is-active" data-tab="proyek" type="button">Proyek</button>
+      <button class="tab-btn" data-tab="keahlian" type="button">Keahlian</button>
+      <button class="tab-btn" data-tab="techstack" type="button">Tech Stack</button>
+    </div>
+
+    <!-- panel: PROYEK -->
+    <div class="tab-panel is-active" id="panel-proyek">
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="project-file">catatan-jaringan.md</span>
+          </div>
+          <h3>Rangkuman Materi Jaringan dengan Bantuan AI</h3>
+          <p>Menyusun catatan belajar topik dasar TKJ (topologi, OSI layer, subnetting) dengan bantuan prompt AI supaya lebih mudah dipahami dan diingat.</p>
+          <div class="tag-list">
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">Riset Mandiri</span>
+          </div>
+          <button class="project-toggle" type="button" aria-expanded="false">Lihat detail <span class="chev">↓</span></button>
+          <div class="project-detail">
+            <p><strong>Fitur utama</strong></p>
+            <ul>
+              <li>Rangkuman per-topik yang mudah diulang</li>
+              <li>Disusun dari prompt riset terstruktur</li>
+              <li>Dipakai untuk belajar mandiri sebelum ujian praktik</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="project-file">simulasi-topologi.pkt</span>
+          </div>
+          <h3>Simulasi Topologi Jaringan Sederhana</h3>
+          <p>Latihan menyusun dan menguji topologi jaringan dasar menggunakan Cisco Packet Tracer sebagai bagian dari praktik sekolah.</p>
+          <div class="tag-list">
+            <span class="tag">Cisco Packet Tracer</span>
+            <span class="tag">Latihan</span>
+          </div>
+          <button class="project-toggle" type="button" aria-expanded="false">Lihat detail <span class="chev">↓</span></button>
+          <div class="project-detail">
+            <p><strong>Fitur utama</strong></p>
+            <ul>
+              <li>Topologi star sederhana dengan beberapa PC &amp; switch</li>
+              <li>Pengujian koneksi antar perangkat lewat command prompt</li>
+              <li>Latihan dasar sebelum masuk materi subnetting</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="project-file">template-prompt.txt</span>
+          </div>
+          <h3>Koleksi Template Prompt untuk Tugas Sekolah</h3>
+          <p>Kumpulan prompt yang aku susun sendiri untuk membantu riset, merapikan laporan, dan mempercepat pengerjaan tugas sehari-hari.</p>
+          <div class="tag-list">
+            <span class="tag">AI Tools</span>
+            <span class="tag">Produktivitas</span>
+          </div>
+          <button class="project-toggle" type="button" aria-expanded="false">Lihat detail <span class="chev">↓</span></button>
+          <div class="project-detail">
+            <p><strong>Fitur utama</strong></p>
+            <ul>
+              <li>Template prompt untuk riset &amp; rangkuman materi</li>
+              <li>Template untuk merapikan struktur laporan tugas</li>
+              <li>Terus ditambah setiap kali menemukan pola prompt baru yang berguna</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- panel: KEAHLIAN -->
+    <div class="tab-panel" id="panel-keahlian">
+      <div class="skill-grid">
+
+        <div class="skill-card skill-card-featured">
+          <div class="skill-card-head">
+            <span class="rack-led led-teal"></span>
+            <h3>AI &amp; Prompt Engineering</h3>
+            <span class="skill-badge">Andalan</span>
+          </div>
+          <ul class="skill-list">
+            <li><span>Menyusun prompt yang efektif</span><div class="skill-bar"><i style="width:88%"></i></div></li>
+            <li><span>Riset &amp; rangkuman materi dengan AI</span><div class="skill-bar"><i style="width:85%"></i></div></li>
+            <li><span>Otomatisasi tugas sekolah dengan AI tools</span><div class="skill-bar"><i style="width:80%"></i></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <span class="rack-led led-pink"></span>
+            <h3>Jaringan &amp; Komputer</h3>
+            <span class="skill-badge skill-badge-muted">Sedang dipelajari</span>
+          </div>
+          <ul class="skill-list">
+            <li><span>Dasar topologi &amp; kabel jaringan</span><div class="skill-bar"><i style="width:55%"></i></div></li>
+            <li><span>Pengenalan subnetting &amp; IP Addressing</span><div class="skill-bar"><i style="width:45%"></i></div></li>
+            <li><span>Dasar perakitan &amp; perawatan PC</span><div class="skill-bar"><i style="width:60%"></i></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <span class="rack-led led-gold"></span>
+            <h3>Soft Skill</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span>Rasa ingin tahu &amp; semangat belajar mandiri</span><div class="skill-bar"><i style="width:90%"></i></div></li>
+            <li><span>Beradaptasi dengan teknologi baru</span><div class="skill-bar"><i style="width:80%"></i></div></li>
+            <li><span>Konsisten mengejar target</span><div class="skill-bar"><i style="width:82%"></i></div></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- panel: TECH STACK -->
+    <div class="tab-panel" id="panel-techstack">
+      <div class="stack-grid">
+        <div class="stack-item"><span class="stack-icon stack-icon-1">PT</span><span>Packet Tracer</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-2">AI</span><span>Prompt Engineering</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-3">Win</span><span>Windows</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-4">Lx</span><span>Linux Dasar</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-5">Net</span><span>Jaringan LAN</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-6">Ofc</span><span>Microsoft Office</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-7">HTML</span><span>HTML &amp; CSS</span></div>
+        <div class="stack-item"><span class="stack-icon stack-icon-8">Cv</span><span>Canva</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI KARYA ===== -->
+  <section class="section gallery-section" id="galeri">
+    <div class="section-head gallery-head">
+      <p class="section-eyebrow">Galeri</p>
+      <h2>Galeri Karya</h2>
+      <p class="section-sub">Dokumentasi hasil kerja dan latihan — klik salah satu untuk melihat lebih besar.</p>
+      <span class="gallery-count" id="galleryCount">0 foto</span>
+    </div>
+
+    <!--
+      Cara mengisi galeri ini:
+      1. Upload file fotomu ke folder yang sama dengan index.html (misalnya di dalam folder "galeri/").
+      2. Ganti src="" tiap <img> di bawah dengan nama file fotomu, misalnya src="galeri/foto-1.jpg".
+      3. Ganti teks data-caption dan alt dengan judul singkat foto tersebut.
+      4. Hapus <figure> yang tidak dipakai kalau fotomu kurang dari 15.
+      Maksimal 15 foto.
+    -->
+    <div class="gallery-grid" id="galleryGrid">
+      <figure class="gallery-item"><img src="" alt="Foto karya 1" data-caption="Foto karya 1" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 2" data-caption="Foto karya 2" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 3" data-caption="Foto karya 3" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 4" data-caption="Foto karya 4" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 5" data-caption="Foto karya 5" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 6" data-caption="Foto karya 6" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 7" data-caption="Foto karya 7" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 8" data-caption="Foto karya 8" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 9" data-caption="Foto karya 9" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 10" data-caption="Foto karya 10" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 11" data-caption="Foto karya 11" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 12" data-caption="Foto karya 12" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 13" data-caption="Foto karya 13" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 14" data-caption="Foto karya 14" loading="lazy"></figure>
+      <figure class="gallery-item"><img src="" alt="Foto karya 15" data-caption="Foto karya 15" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- Lightbox untuk galeri -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Sebelumnya">‹</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Berikutnya">›</button>
+  </div>
+
+  <!-- ===== PERJALANAN ===== -->
+  <section class="section section-alt" id="perjalanan">
+    <div class="section-head">
+      <p class="section-eyebrow">Perjalanan</p>
+      <h2>Momen Penting</h2>
+    </div>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Kelas X</span>
+          <h3>Mengenal dunia IT dan jaringan</h3>
+          <p>Mulai mengenal dasar komputer dan jaringan lewat pelajaran jurusan TKJ di SMK.</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Kelas XI — sekarang</span>
+          <h3>Mendalami AI &amp; membangun portofolio</h3>
+          <p>Belajar menyusun prompt yang efektif untuk riset dan tugas, sambil menyusun portofolio digital ini dan terus menggali lebih dalam materi komputer dan jaringan.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== KONTAK / CONTACT PERSON ===== -->
+  <section class="section section-contact" id="kontak">
+    <div class="section-head">
+      <p class="section-eyebrow">Kontak</p>
+      <h2>Ada yang ingin didiskusikan?</h2>
+      <p class="section-sub">Terbuka untuk kesempatan PKL, magang, atau sekadar ngobrol soal jaringan dan server.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Hubungi saya -->
+      <div class="contact-panel">
+        <h3>Hubungi Saya</h3>
+        <p class="contact-panel-desc">Isi form ini, nanti akan terbuka aplikasi email kamu dengan pesan yang sudah terisi otomatis.</p>
+
+        <form class="contact-form" id="contactForm">
+          <label class="field">
+            <span>Nama</span>
+            <input type="text" name="name" placeholder="Nama kamu" required>
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="email@contoh.com" required>
+          </label>
+          <label class="field">
+            <span>Pesan</span>
+            <textarea name="message" rows="4" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+        </form>
+
+        <div class="connect-list">
+          <a href="mailto:jassonficosaverio@gmail.com" class="connect-item">
+            <span class="connect-icon">✉️</span>
+            <span><strong>Email</strong><br>jassonficosaverio@gmail.com</span>
+          </a>
+          <a href="https://github.com/jassonficosaverio" target="_blank" rel="noopener" class="connect-item">
+            <span class="connect-icon">🖥️</span>
+            <span><strong>GitHub</strong><br>github.com/jassonficosaverio</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Comments / buku tamu -->
+      <div class="contact-panel">
+        <h3>Komentar</h3>
+        <p class="contact-panel-desc">Tinggalkan jejak atau kesan kamu di sini. <em>Komentar tersimpan sementara selama sesi ini.</em></p>
+
+        <form class="comment-form" id="commentForm">
+          <label class="field">
+            <span>Nama</span>
+            <input type="text" name="name" placeholder="Nama kamu" required>
+          </label>
+          <label class="field">
+            <span>Komentar</span>
+            <textarea name="comment" rows="3" placeholder="Tulis kesan kamu..." required></textarea>
+          </label>
+          <label class="upload-field" id="uploadField">
+            <input type="file" name="image" accept="image/*" id="commentImage" hidden>
+            <span id="uploadLabel">📎 Lampirkan gambar (opsional)</span>
+          </label>
+          <button type="submit" class="btn btn-outline btn-block">Kirim Komentar</button>
+        </form>
+
+        <div class="comment-list" id="commentList"></div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Dibuat dengan 🍥 oleh Jasson Fico Saverio · Siswa TKJ · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
